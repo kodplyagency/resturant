@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    color: #261c14;
+    background-color: #fdfbf7;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom warm Indian restaurant theme accents */
+:root {
+  --color-saffron: #d9621e;
+  --color-saffron-dark: #b84c12;
+  --color-saffron-light: #fff3ec;
+  --color-veg-green: #15803d;
+  --color-cream: #fdfbf7;
+  --color-cream-dark: #f5ede2;
+  --color-warm-brown: #3d291d;
+}
+
+/* Indian Veg Symbol */
+.veg-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #16a34a;
+  border-radius: 3px;
+  padding: 2px;
+  background-color: #ffffff;
+}
+
+.veg-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #16a34a;
+}

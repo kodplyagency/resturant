@@ -1,0 +1,6 @@
+{
+  "name": "Apna Swad Pure Veg Restaurant",
+  "description": "Authentic Indian pure vegetarian family restaurant with rich North & South Indian delicacies, warm family ambiance, and moderate pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
